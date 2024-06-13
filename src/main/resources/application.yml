@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: employeess
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/onboarding?authSource=admin&retryWrites=true&w=majority
+
+server:
+  port: 9092
+
+logging:
+  level :
+    root : DEBUG
